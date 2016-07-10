@@ -1,0 +1,35 @@
+<style>
+  p, h1 {
+    color: #6600cc;
+    background-color: ;
+  }
+  body {
+    max-width: 1200px;
+    background-image:url('http://www.pawsforbeer.com/wp-content/uploads/2014/05/14088267951_9274ce3aa9_b.jpg');
+
+        margin: 0 auto;
+  }
+title{
+    display: center;
+  }
+  li {
+    list-style-type: none;
+  }
+  .myClass{
+    color: pink;
+  }
+
+  button{
+      display:inline-block;
+      width: 190px;
+      height: 90px;
+
+  }
+  #boats-and-sports {
+   li {
+     a{
+       font-size: 5px;
+      }
+    }
+  }
+</style>

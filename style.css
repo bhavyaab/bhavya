@@ -20,11 +20,11 @@ li{
   padding: 15px;
 }
 main{
-  height: 418px;
+  height: 300px;
   width: 800px;
 }
 main img{
-  margin-left: 370px;
+  margin-left: 47%;
   margin-top: 100px;
 }
 main p{
@@ -34,13 +34,8 @@ h1{
   color: #F2F4F7;
   margin-left: 300px;
 }
-footer{
-  width: 800px;
-  height: 130px;
-  background-color: #1E1E1D;
-  color: #F2F4F7;
-}
 span{
-  width: 70px;
-  height: 70px;
+background-color: inherit;
+margin-top: 0px;
+margin-left: 25%;
 }

@@ -1,6 +1,6 @@
 body{
   background-color: #1E1E1D;
-  color: #F2F4F7;
+  /* color: #F2F4F7; */
 }
 #container{
   background-color: #1E1E1D;
@@ -10,9 +10,9 @@ body{
 }
 nav{
   height: 30px;
-  align: center;
+  text-align: center;
 }
-a{
+a.link{
   color: #F2F4F7;
 }
 li{
@@ -20,22 +20,25 @@ li{
   padding: 15px;
 }
 main{
-  height: 300px;
-  width: 800px;
+    text-align: center;
 }
-main img{
-  margin-left: 47%;
-  margin-top: 100px;
+main.img{
+  margin-top: 50%;
+  margin-left: 50%;
+  margin-right: 50%;
+  border-collapse: separate;
 }
 main p{
-  margin-top: 400px;
-}
+  height: 30%;
+  width: 40%;
+  font-size: 1.5em;
+  margin-left: 20%;
+  }
 h1{
   color: #F2F4F7;
-  margin-left: 300px;
+
 }
 span{
-background-color: inherit;
 margin-top: 0px;
 margin-left: 25%;
 }

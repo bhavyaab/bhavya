@@ -11,7 +11,7 @@
 
 </head>
 <body>
-  <main>
+  <main id="toHome">
     <div id="content">
       <h1>BHAVYA</h1>
       <p>Hello! My name is Bhavya Bharti, and I'm a Seattle-based freelancer. If I'm not freelancing at some of Seattle's finest digital agencies, I'm working remotely on projects for clients all over the world.
@@ -31,13 +31,13 @@
   <hr>
   <nav class="main-nav">
    <ul>
-      <li class="toHome">HOME</li>
-      <li class="toProject">PROJECTS</li>
-      <li class="toSkills">SKILS</li>
-    <li class="toContact">CONTACT</li>
+      <li><a href="#toHome">HOME</a></li>
+      <li><a href="#toProject">PROJECTS</a></li>
+      <li><a href="#toSkills">SKILS</a></li>
+    <li><a href="#toContact">CONTACT</a></li>
    </ul>
   </nav>
-  <section class="projectInfo">
+  <section id="toProject">
    <h2>Projects</h2>
    <div class="projectContainer">
      <div class="col-project">
@@ -47,9 +47,26 @@
    </div>
    <ul class="extra">
      <li class="project-snipshot1"><a href="file:///C:/Users/bhavy_000/201/vote/index.html"><img src="images/vote.PNG"></a></li>
-     <li class="project-snipshot2"></li>
+     <li class="project-snipshot2"><a href="file:///C:/Users/bhavy_000/201/MasterBlaster/index.html"><img src="images/ping.PNG"></a></li>
      <li class="project-snipshot3"></li>
    </ul>
  </section>
+ <section id="toSkills">
+   <h2>Skills</h2>
+   <div class="skill-set">
+     <p>
+					The crossover between design and programming has always been of interest to me,
+					and since moving to London six years ago, I've been lucky enough to work alongside
+					some talented teams on a number of high profile websites.</p>
+     <p>I have a wide range of skills that include design (and working closely with designers),
+					front-end development (HTML5, CSS3, Javascript, Responsive, UX), back-end development using
+					open source technologies (PHP, Drupal, Django and Ruby on Rails), Linux server system
+					administration, load balancing (Varnish and Memcached), deployment and performance
+					tuning (Apache, MySQL and NGinx).</p>
+     <img src="https://s2.graphiq.com/sites/default/files/stories/t2/tiny_cat_12573_8950.jpg">
+     <h2 id="toContact">Contact</h2>
+     <p>I'm available for freelance contracts, so get in touch:<a href="bhavyaab@outlook.com">hello@bhavya</a></p>
+   </div>
+</section>
 </body>
 </html>

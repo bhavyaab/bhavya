@@ -1,0 +1,17 @@
+@media only screen and (min-width: 100px);
+body{
+ text-align: center;
+ color: #E6E0CB;
+ background-color: #223e46;
+ font-family: 'Raleway';
+ width: 100%;
+}
+h1{
+  font-size: 100px;
+  font-weight:lighter;
+  }
+img{
+     height: 200px;
+     width: 230px;
+     border-radius: 10px;
+     }

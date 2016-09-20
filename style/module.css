@@ -1,8 +1,19 @@
 .main-nav li{
-     padding: 10px;
+  padding: 10px;
 }
-.me, #skills img{
-     height: 130px;
-     width: 130px;
-     border-radius: 70px;
+.me, #toSkills img{
+  height: 130px;
+  width: 130px;
+  border-radius: 70px;
+}
+#toProject img{
+  height: 15em;
+  width: 17em;
+  border-radius: 1em;
+}
+.horizentalLine{
+  width: 10em;
+  background-color: #e6e0cb;
+  padding: 0.02em;
+  margin-left: calc(50% - 5em);
 }

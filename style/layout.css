@@ -1,0 +1,24 @@
+/*=========== body ==================*/
+.parallax{
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about{
+ background-color: brown;
+ height: 600px;
+}
+#project{
+ background-color: orange;
+ height: 600px;
+}
+#education{
+ background-color: blue;
+ height: 600px;
+}
+#contact{
+ background-color: yellow;
+ height: 600px;
+}

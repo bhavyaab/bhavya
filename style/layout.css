@@ -1,0 +1,22 @@
+/*=========== body ==================*/
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+ height: 500px;
+}
+#about{
+  background-image: url("../images/xoom.jpg");
+}
+#project{
+  background-image: url("../images/computer.jpg");
+}
+#education{
+ background-image: url("../images/grass.jpg");;
+}
+#contact{
+ background-image: url("../images/typewriter.jpg");
+}

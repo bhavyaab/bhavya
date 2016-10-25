@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*=========== body ==================*/
 .parallax{
   background-attachment: fixed;
@@ -19,4 +20,26 @@ p{
 }
 #contact{
  background-image: url("../images/typewriter.jpg");
+=======
+h1{
+  font-size: 3em;
+  font-weight:lighter;
+  padding: .1rem;
+  }
+body{
+ text-align: center;
+ color: #E6E0CB;
+ background-color: #223e46;
+ font-family: 'Raleway';
+ width: 100%;
+}
+
+ div{
+    padding: 1em;
+  }
+@media screen and (min-width: 320px){
+h1{
+  font-size: 4em;
+}
+>>>>>>> origin
 }

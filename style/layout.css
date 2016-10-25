@@ -1,24 +1,22 @@
 /*=========== body ==================*/
 .parallax{
-  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+p{
+ height: 500px;
+}
 #about{
- background-color: brown;
- height: 600px;
+  background-image: url("../images/xoom.jpg");
 }
 #project{
- background-color: orange;
- height: 600px;
+  background-image: url("../images/computer.jpg");
 }
 #education{
- background-color: blue;
- height: 600px;
+ background-image: url("../images/grass.jpg");;
 }
 #contact{
- background-color: yellow;
- height: 600px;
+ background-image: url("../images/typewriter.jpg");
 }

@@ -1,28 +1,11 @@
-/*=========== div ==================*/
-p{
- height: 100vh; /*make it devise height for responsive developement*/
+/*=========== section =================*/
+section{
+  /*margin-top: 20vh;*/
+  height: 75vh;
 }
-#project{
-  background-image: url("../images/computer.jpg");
-}
-#education{
- background-image: url("../images/grass.jpg");;
-}
-#contact{
- background-image: url("../images/typewriter.jpg");
-}
-/*======== Nav ===========*/
-nav{
- position: absolute;
- margin: 7em;
- font-size: 1.2em;
-}
-nav li{
-  display: inline;
-  position: relative;
-  margin-right: 30px;
-}
-/*============================= section hello=================*/
-#about{
- background-image: url("../images/black-and-white-parallax-test.gif");
+
+/*=========== footer ==================*/
+footer{
+width: 100%;
+text-align: center;
 }

@@ -1,23 +1,33 @@
-.parallax{
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+/*------------------* SECTION *--------------------*/
+#about{
+ width: 100%;
+ /*font-family: 'Special Elite', cursive;*/
+ font-family: 'Love Ya Like A Sister', cursive;
+}
+#about h2{
+  text-align: center;
+  padding: 1em;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#about p, .connect-me{
+  width: 70%;
+  margin-left: 15%;
+  text-align: justify;
+  margin-top: 5%;
+  color: gray;
+}
+.connect-me li{
+  display: inline-block;
+  font-weight: bold;
+  padding-right: 2.5em;
+  padding-bottom: 1em;
+  color: black;
 }
 
-/*============================= section hello=================*/
-article h1{
- font-size: 160px;
- font-weight: bold;
- position: relative;
- top: 2em;
- left: 0.3em;
-}
-article p{
- position: relative;
- top: 20em;
- left: 3.3em;
- width: 40%;
-font-size: 18px;
-line-height: 150%;
+@media screen and (min-width: 450px) {
+  #about{
+    width: 50%;
+  }
 }

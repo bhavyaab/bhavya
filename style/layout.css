@@ -1,11 +1,26 @@
+/*=========== header =================*/
+header{
+  height: 5%;
+}
+header li{
+  text-align: center;
+}
+header li:first-child{
+}
 /*=========== section =================*/
 section{
-  /*margin-top: 20vh;*/
-  height: 75vh;
+  height: 90vh;
 }
 
 /*=========== footer ==================*/
 footer{
 width: 100%;
 text-align: center;
+}
+
+
+@media screen and (min-width: 450px) {
+header li:first-child{
+  text-align: center;
+}
 }

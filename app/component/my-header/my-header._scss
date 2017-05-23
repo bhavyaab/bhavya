@@ -1,0 +1,6 @@
+.my-header{
+  height: 90%;
+  li{
+    text-align: center;
+  }
+}

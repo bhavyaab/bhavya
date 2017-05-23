@@ -1,22 +1,17 @@
-/*------------------* SECTION #art *--------------------*/
-#about{
- width: 100%;
- z-index: 2;
-}
-/*------------------* SECTION #about *--------------------*/
 #about{
  width: 100%;
  position: absolute;
  top:5%;
-}
-#about h2{
+
+ h2{
   text-align: center;
   padding: 1em;
   font-size: 2.5em;
   font-weight: bold;
   margin-top: 85%;
 }
-#about p, .connect-me{
+
+ p, .connect-me{
   width: 70%;
   margin-left: 15%;
   text-align: justify;
@@ -30,15 +25,4 @@
   padding-bottom: 1em;
   color: black;
 }
-
-@media screen and (min-width: 450px) {
-  #about{
-    width: 50%;
-  }
-  .connect-me li{
-    padding-right: 1.5em;
-  }
-  .connect-me li:last-child{
-    padding-right: 0em;
-  }
 }

@@ -1,0 +1,47 @@
+html{
+  min-height: 100%;
+  min-width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  /*font-family: "Helvetica Neue", 'Nunito',Helvetica, Arial, sans-serif;*/
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 1.25em;
+  height: 100%;
+  color: #000;
+}
+/*font-family: 'Special Elite', cursive;*/
+/*font-family: 'Love Ya Like A Sister', cursive;*/
+
+*{
+  -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   transform: rotate(90deg);
+}
+
+/*=========== section =================*/
+section{
+  height: 90vh;
+}
+
+/*=========== footer ==================*/
+footer{
+width: 100%;
+text-align: center;
+}
+
+
+@media screen and (min-width: 450px) {
+header li:first-child{
+  text-align: center;
+}
+}

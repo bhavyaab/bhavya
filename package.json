@@ -8,8 +8,9 @@
     "main": "entry.js",
     "scripts": {
       "kill": "taskkill /f /im node.exe",
+      "start": "node server.js",
       "build": "node ./node_modules/webpack/bin/webpack.js",
-      "build-watch": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
+      "build-watch": "npm run start && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js build --inline --hot",
       "test": "node ./node_modules/karma/bin/karma start --single-run",
       "test-watch": "node ./node_modules/karma/bin/karma start"
     },

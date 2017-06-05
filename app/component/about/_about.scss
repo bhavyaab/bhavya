@@ -1,0 +1,32 @@
+.about{
+ width: 100%;
+ position: absolute;
+ top: 25%;
+ h2{
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+ p, .connect-me{
+  width: 70%;
+  margin-left: 15%;
+  text-align: justify;
+  margin-top: 5%;
+  color: gray;
+}
+.connect-me li{
+  display: inline-block;
+  font-weight: bold;
+  padding-right: 0.5em;
+  padding-bottom: 1em;
+  color: black;
+}
+}
+@media screen and (min-width: 450px) {
+  .about{
+    width: 50%;
+    left: 5%;
+  }
+}

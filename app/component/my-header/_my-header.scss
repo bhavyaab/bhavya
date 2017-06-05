@@ -1,0 +1,21 @@
+.my-header{
+   li{
+     text-align: center;
+   }
+   width: 100%;
+   height: 10%;
+}
+
+
+@media screen and (min-width: 450px) {
+
+    .my-header{
+      position: absolute;
+      -ms-transform: rotate(-90deg); /* IE 9 */
+      -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+      transform: rotate(-90deg);
+      top: 40%;
+      width: 25%;
+      height: -1%;
+    }
+}

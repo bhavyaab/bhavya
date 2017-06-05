@@ -9,5 +9,5 @@ function homeController($log, $location){
 
   let url = $location.url();
   this.showHome = url === '' || '/home' || '/';
-  this.aboutShow = false;
+  this.aboutShow = true;
 }

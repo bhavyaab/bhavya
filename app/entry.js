@@ -11,8 +11,9 @@ const ngFileUpload = require('ng-file-upload');
 const ngAnimate = require('angular-animate');
 const ngDialog = require('ng-dialog');
 const uiBootstrap = require('angular-ui-bootstrap');
+const bootstrap = require('bootstrap');
 
-const app = angular.module('startApp', [uiRouter, ngFileUpload, ngAnimate, ngDialog, uiBootstrap]);
+const app = angular.module('profolio', [uiRouter, ngFileUpload, ngAnimate, ngDialog, uiBootstrap, bootstrap]);
 
 let context = require.context('./config/', true, /\.js$/);
 context.keys().forEach( path => {

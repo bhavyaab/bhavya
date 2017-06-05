@@ -1,3 +1,4 @@
 <section class="my-header">
-  <li ng-click="aboutShow=!aboutShow">About</li>
+  <li ng-click="aboutShow=!aboutShow" ng-if="aboutShow">About</li>
+  <li data-toggle="collapse" data-target=".about">Close</li>
 </section >

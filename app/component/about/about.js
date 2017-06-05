@@ -3,7 +3,7 @@
 module.exports = {
   template: require('./about.html'),
   controller: ['$log', '$location', AboutController],
-  controllerAs: 'AboutCtrl'
+  controllerAs: 'aboutCtrl'
 };
 
 function AboutController($log, $location) {

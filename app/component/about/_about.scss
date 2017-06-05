@@ -1,14 +1,12 @@
-#about{
+.about{
  width: 100%;
  position: absolute;
- top:5%;
-
+ top: 20%;
  h2{
   text-align: center;
-  padding: 1em;
-  font-size: 2.5em;
+  padding-bottom: 1em;
+  font-size: 2em;
   font-weight: bold;
-  margin-top: 85%;
 }
 
  p, .connect-me{
@@ -25,4 +23,10 @@
   padding-bottom: 1em;
   color: black;
 }
+}
+@media screen and (min-width: 450px) {
+  .about{
+    width: 50%;
+    left: 5%;
+  }
 }

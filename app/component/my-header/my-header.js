@@ -3,7 +3,10 @@
 module.exports = {
   template: require('./my-header.html'),
   controller: ['$log', '$location', MyHeaderController],
-  controllerAs: 'myHeaderCtrl'
+  controllerAs: 'myHeaderCtrl',
+  bindings:{
+    aboutShow: '='
+  }
 };
 
 function MyHeaderController($log, $location) {

@@ -11,6 +11,8 @@ const ngFileUpload = require('ng-file-upload');
 const ngAnimate = require('angular-animate');
 const ngDialog = require('ng-dialog');
 const uiBootstrap = require('angular-ui-bootstrap');
+const ngTouch = require('angular-touch');
+const bootstrap = require('bootstrap');
 
 const app = angular.module('profolio', [uiRouter, ngFileUpload, ngAnimate, ngDialog, uiBootstrap]);
 

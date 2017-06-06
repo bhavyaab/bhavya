@@ -1,7 +1,5 @@
 'use strict';
-
 require('./scss/main.scss');
-
 const path = require('path');
 const angular = require('angular');
 const camelcase = require('camelcase');
@@ -11,9 +9,8 @@ const ngFileUpload = require('ng-file-upload');
 const ngAnimate = require('angular-animate');
 const ngDialog = require('ng-dialog');
 const uiBootstrap = require('angular-ui-bootstrap');
-const bootstrap = require('bootstrap');
 
-const app = angular.module('profolio', [uiRouter, ngFileUpload, ngAnimate, ngDialog, uiBootstrap, bootstrap]);
+const app = angular.module('profolio', [uiRouter, ngFileUpload, ngAnimate, ngDialog, uiBootstrap]);
 
 let context = require.context('./config/', true, /\.js$/);
 context.keys().forEach( path => {

@@ -11,8 +11,6 @@ module.exports = {
 
 function MyHeaderController($log, $location) {
   $log.debug('MyHeaderController');
-  this.call = function(x){
-    console.log('click');
-    console.log('x = ', x);
-  };
+
+  this.isCollapsedHorizontal = false;
 }

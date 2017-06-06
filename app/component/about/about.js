@@ -8,5 +8,4 @@ module.exports = {
 
 function AboutController($log, $location) {
   $log.debug('AboutController');
-
 }

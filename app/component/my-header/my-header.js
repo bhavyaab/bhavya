@@ -12,5 +12,4 @@ module.exports = {
 function MyHeaderController($log, $location) {
   $log.debug('MyHeaderController');
 
-  this.isCollapsedHorizontal = false;
 }

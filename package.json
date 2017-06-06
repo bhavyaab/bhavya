@@ -33,7 +33,6 @@
     "google-auth-library": "^0.10.0",
     "googleapis": "^19.0.0",
     "html-webpack-plugin": "^2.26.0",
-    "jquery": "^3.2.1",
     "ng-dialog": "^1.0.0",
     "ng-file-upload": "^12.2.13",
     "node-sass": "^4.3.0",

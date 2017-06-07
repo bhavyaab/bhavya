@@ -12,4 +12,12 @@
     <li>LinkedIn</li>
     <li>Blogs</li>
   </ul>
+
+  <button
+  ng-click="aboutCtrl.isCollapsedHorizontal = !aboutCtrl.isCollapsedHorizontal">
+  Toggle collapse Horizontally</button>
+	<div class="horizontal-collapse"
+  uib-collapse="aboutCtrl.isCollapsedHorizontal" horizontal>
+	   <div>Some content</div>
+  </div>
 </section>

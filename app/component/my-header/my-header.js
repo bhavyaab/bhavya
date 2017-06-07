@@ -5,11 +5,10 @@ module.exports = {
   controller: ['$log', '$location', MyHeaderController],
   controllerAs: 'myHeaderCtrl',
   bindings:{
-    aboutShow: '='
+    isCollapsedHorizontal: '&'
   }
 };
 
 function MyHeaderController($log, $location) {
   $log.debug('MyHeaderController');
-
 }

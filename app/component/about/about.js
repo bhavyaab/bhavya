@@ -8,5 +8,5 @@ module.exports = {
 
 function AboutController($log, $location) {
   $log.debug('AboutController');
-  this.isCollapsedHorizontal = false;
+  
 }

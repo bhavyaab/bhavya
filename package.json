@@ -23,6 +23,7 @@
     "angular-touch": "^1.6.1",
     "angular-ui-bootstrap": "^2.5.0",
     "angular-ui-router": "^0.4.2",
+    "animate.css": "^3.5.2",
     "bootstrap": "^4.0.0-alpha.6",
     "camelcase": "^3.0.0",
     "clean-webpack-plugin": "^0.1.15",

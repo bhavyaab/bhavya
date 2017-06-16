@@ -3,34 +3,37 @@
  width: $section-width;
  height: $section-height;
  position: absolute;
- background-color: $backgroundColor;
+ background-color: $white;
  h2{
   text-align: center;
   padding-bottom: 1em;
   font-size: 2em;
   font-weight: bold;
-  margin-top: 87%;
+  margin-top: 25vh;
 }
 
  p, .connect-me{
   width: 70%;
-  margin-left: 15%;
+  margin-left: $gutter;
   text-align: justify;
-  margin-top: 5%;
+  margin-top: $gutter;
   color: gray;
 }
 .connect-me li{
   display: inline-block;
   font-weight: bold;
   padding-right: 0.5em;
-  padding-bottom: 1em;
-  color: black;
+  color: $black;
+}
+
+.connect-me a:hover {
+  border-bottom: 5px solid $art_color;
 }
 .visibility{
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: $backgroundColor;
+  background-color: $white;
   animation: stateChanger 2000ms ease-out forwards;
   animation-delay: .5s;
 }
@@ -62,6 +65,6 @@
 @media screen and (min-width: 450px) {
   .about{
     width: 50%;
-    left: 5%;
+    left: $gutter;
   }
 }

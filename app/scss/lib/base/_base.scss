@@ -20,6 +20,12 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+.underline:hover {
+  text-decoration: none;
+  border-bottom: 5px solid $art_color;
+  color: inherit;
+}
 /*=========== footer ==================*/
 footer{
 width: 100%;

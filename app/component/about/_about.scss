@@ -1,7 +1,8 @@
 @import './../scss/lib/theme/vars';
 .about{
  width: $section-width;
- height: $section-height;
+ height: 90%;
+ top: $gutter;
  position: absolute;
  background-color: $white;
  h2{
@@ -26,9 +27,6 @@
   color: $black;
 }
 
-.connect-me a:hover {
-  border-bottom: 5px solid $art_color;
-}
 .visibility{
   height: 100%;
   width: 100%;
@@ -51,17 +49,6 @@
     }
 }
 
-// backroundTrancpatency::after{
-//   opacity: 0;
-// }
-// @keyframes backroundTrancpatency{
-//   from{
-//     opacity: 1;
-//   }
-//   to{
-//     opacity: 0;
-//   }
-// }
 @media screen and (min-width: 450px) {
   .about{
     width: 50%;

@@ -1,12 +1,15 @@
+@import './../scss/lib/theme/vars';
 .about{
- width: 100%;
+ width: $section-width;
+ height: $section-height;
  position: absolute;
- top: 25%;
+ background-color: $backgroundColor;
  h2{
   text-align: center;
   padding-bottom: 1em;
   font-size: 2em;
   font-weight: bold;
+  margin-top: 87%;
 }
 
  p, .connect-me{
@@ -23,8 +26,39 @@
   padding-bottom: 1em;
   color: black;
 }
+.visibility{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: $backgroundColor;
+  animation: stateChanger 2000ms ease-out forwards;
+  animation-delay: .5s;
+}
 }
 
+@keyframes stateChanger {
+  from{
+    //   opacity: 1;
+        width: 100%;
+    }
+    to{
+    //
+        width: 0%;
+
+    }
+}
+
+// backroundTrancpatency::after{
+//   opacity: 0;
+// }
+// @keyframes backroundTrancpatency{
+//   from{
+//     opacity: 1;
+//   }
+//   to{
+//     opacity: 0;
+//   }
+// }
 @media screen and (min-width: 450px) {
   .about{
     width: 50%;

@@ -11,7 +11,7 @@
     "start": "node server.js",
     "build": "node ./node_modules/webpack/bin/webpack.js",
     "build-watch": "npm run start && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
+    "heroku-postbuild": "webpack -p --progress"
   },
   "keywords": [],
   "author": "",

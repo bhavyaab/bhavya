@@ -14,9 +14,18 @@ $colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
 .text--line {
   font-size: .5em;
   }
+<<<<<<< 18159e4e5898aea2073b015294e41afb79ec82b3
 .text--line-w{
 font-size: 0.3em;
 }
+=======
+.text--line-3{
+font-size: 0.3em;
+}
+.text--line-4{
+font-size: 0.1em;
+}
+>>>>>>> repository moved
 svg {
     width: 100%;
     height: 100%;
@@ -30,7 +39,11 @@ $stroke-step: 7%;
   stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
   stroke-width: 3px;
 
+<<<<<<< 18159e4e5898aea2073b015294e41afb79ec82b3
   animation: stroke-offset 8s infinite linear;
+=======
+  animation: stroke-offset 9s infinite alternate;
+>>>>>>> repository moved
 
   @for $item from 1 through $max {
     $stroke-color: nth($colors, $item);

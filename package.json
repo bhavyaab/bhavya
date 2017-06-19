@@ -11,11 +11,11 @@
     "start": "node server.js",
     "build": "node ./node_modules/webpack/bin/webpack.js",
     "build-watch": "npm run start && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
-    "heroku-postbuild": "node ./node_modules/webpack/bin/webpack.js -p --progress",
+    "heroku-postbuild": "webpack -p --progress",
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "deploy:WINDOWS": "set NODE_ENV=production && node ./node_modules/webpack/bin/webpack.js -p && node server.js",
-    "deploy": "node ./node_modules/webpack/bin/webpack.js -p && node server.js",
-    "postinstall": "node ./node_modules/webpack/bin/webpack.js -p"
+    "deploy:WINDOWS": "set NODE_ENV=production && webpack -p && node server.js",
+    "deploy": "NODE_ENV=production webpack -p && node server.js",
+    "postinstall": "NODE_ENV=production webpack -p"
   },
   "keywords": [],
   "author": "",

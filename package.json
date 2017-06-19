@@ -11,8 +11,6 @@
     "start": "node server.js",
     "build": "node ./node_modules/webpack/bin/webpack.js",
     "build-watch": "npm run start && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
-    "test": "node ./node_modules/karma/bin/karma start --single-run",
-    "test-watch": "node ./node_modules/karma/bin/karma start",
     "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
   },
   "keywords": [],

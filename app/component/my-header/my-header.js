@@ -15,11 +15,11 @@ function MyHeaderController($log, $location) {
   var element = document.querySelector('.about');
 
   this.showAbout = function(){
-    if(this.isCollapsedHorizontal){
-      console.log('class added');
-    } else {
-      console.log('class removed!!');
-    }
+    // if(this.isCollapsedHorizontal){
+    //   console.log('class added');
+    // } else {
+    //   console.log('class removed!!');
+    // }
     this.isCollapsedHorizontal = !this.isCollapsedHorizontal;
   };
 }

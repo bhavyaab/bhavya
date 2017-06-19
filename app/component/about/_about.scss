@@ -5,6 +5,7 @@
  top: $gutter;
  position: absolute;
  background-color: $white;
+ z-index: 1;
  h2{
   text-align: center;
   padding-bottom: 1em;
@@ -21,6 +22,10 @@
   color: gray;
 }
 .connect-me li{
+  display: block;
+  height: 1em;
+}
+.connect-me a{
   display: inline-block;
   font-weight: bold;
   padding-right: 0.5em;
@@ -33,7 +38,7 @@
   position: absolute;
   background-color: $white;
   animation: stateChanger 2000ms ease-out forwards;
-  animation-delay: .5s;
+  // animation-delay: .5s;
 }
 }
 

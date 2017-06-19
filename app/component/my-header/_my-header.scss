@@ -14,13 +14,13 @@
       position: absolute;
       transform: rotate(-90deg);
       top: 40%;
-      width: $gutter * 2;
+      width: $gutter * 3;
       height: $gutter * 3;
-      left: $gutter * 2;
+      left: $gutter;
     }
 }
 @media screen and (min-width: 900px) {
   .my-header{
-    width: $gutter * 2;
+    width: $gutter;
   }
 }

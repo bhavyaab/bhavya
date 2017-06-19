@@ -9,5 +9,6 @@ function homeController($log, $location){
 
   let url = $location.url();
   this.showHome = url === '' || '/home' || '/';
-  this.aboutShow = true;
+
+  this.isCollapsedHorizontal = true;
 }

@@ -5,14 +5,21 @@ module.exports = {
   controller: ['$log', '$location', MyHeaderController],
   controllerAs: 'myHeaderCtrl',
   bindings:{
-    aboutShow: '='
+    isCollapsedHorizontal: '='
   }
 };
 
 function MyHeaderController($log, $location) {
   $log.debug('MyHeaderController');
-  this.call = function(x){
-    console.log('click');
-    console.log('x = ', x);
+
+  var element = document.querySelector('.about');
+
+  this.showAbout = function(){
+    // if(this.isCollapsedHorizontal){
+    //   console.log('class added');
+    // } else {
+    //   console.log('class removed!!');
+    // }
+    this.isCollapsedHorizontal = !this.isCollapsedHorizontal;
   };
 }

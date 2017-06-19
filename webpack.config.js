@@ -1,5 +1,6 @@
 'use strict';
 
+
 const dotenv = require('dotenv');
 const webpack = require('webpack');
 const HTMLPlugin = require('html-webpack-plugin');
@@ -20,10 +21,10 @@ let plugins = [
 
 if (production) {
   plugins = plugins.concat([
-    new webpack.optimize.UglifyJsPlugin({
-      mangle: true,
-      compress: { warnings: false }
-    }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //   mangle: true,
+    //   compress: { warnings: false }
+    // }),
     new CleanPlugin()
   ]);
 }
@@ -36,7 +37,11 @@ module.exports = {
     filename: 'bundle.js'
   },
   plugins,
-  sassLoader: { includePaths: [`${__dirname}/app/scss`] },
+  sassLoader: { includePaths: [
+    `${__dirname}/node_modules/bootstrap/scss/`,
+    `${__dirname}/app/scss`
+  ] },
+
   module: {
     loaders: [{
       test: /\.js$/,

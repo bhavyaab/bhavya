@@ -15,6 +15,17 @@ body{
 /*font-family: 'Special Elite', cursive;*/
 /*font-family: 'Love Ya Like A Sister', cursive;*/
 html, body { height: 100%; width: 100%; margin: 0; }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline:hover {
+  text-decoration: none;
+  border-bottom: 5px solid $art_color;
+  color: inherit;
+}
 /*=========== footer ==================*/
 footer{
 width: 100%;

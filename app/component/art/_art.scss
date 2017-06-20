@@ -24,11 +24,10 @@ svg {
     width: 100%;
     height: 100%;
   }
-
 $max: 5;
 $stroke-step: 7%;
+
 .text-copy {
-  fill: none;
   stroke: white;
   stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
   stroke-width: 3px;
@@ -46,9 +45,16 @@ $stroke-step: 7%;
   }
 
 @keyframes stroke-offset {
+  0%{
+   fill: #fff;
+ }
   50% {
     stroke-dashoffset: $stroke-step * $max;
     stroke-dasharray: 0 $stroke-step * $max*2.5;
+    fill: #e7d84b;
+  }
+  100%{
+    fill: #fff;
   }
 }
 

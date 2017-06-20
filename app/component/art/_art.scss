@@ -51,7 +51,7 @@ $stroke-step: 7%;
   50% {
     stroke-dashoffset: $stroke-step * $max;
     stroke-dasharray: 0 $stroke-step * $max*2.5;
-    fill: #e7d84b;
+    fill: #888;
   }
   100%{
     fill: #fff;

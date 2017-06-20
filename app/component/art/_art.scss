@@ -7,9 +7,10 @@
   top: $gutter;
   left: $gutter * 2;
   background-size: .12em 100%;
-  font: 10em/1 Arial;
+  font: 10em/1 'Nunito', sans-serif;
 
-$colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
+// $colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
+$colors: #21D6FF, #491635, #222E51, #000000, #FF8536;
 
 .text--line {
   font-size: .5em;
@@ -51,7 +52,7 @@ $stroke-step: 7%;
   50% {
     stroke-dashoffset: $stroke-step * $max;
     stroke-dasharray: 0 $stroke-step * $max*2.5;
-    fill: #888;
+    fill: #999;
   }
   100%{
     fill: #fff;

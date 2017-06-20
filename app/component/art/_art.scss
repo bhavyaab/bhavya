@@ -9,8 +9,11 @@
   background-size: .12em 100%;
   font: 10em/1 'Nunito', sans-serif;
 
-// $colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
-$colors: #21D6FF, #491635, #222E51, #000000, #FF8536;
+
+  // $colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798; // default
+  $colors: #21D6FF, #491635, #222E51, #000000, #FF8536;   // black bule orange // currently deployed
+  // $colors: #262224, #89A887, #705F55, #732F26, #F3EEF2; // black to brown
+  // $colors: #D8D5B1, #FF4F00, #2A3E4F, #4D7F5A, #AEB193;
 
 .text--line {
   font-size: .5em;
